@@ -15,9 +15,29 @@ export function getWebviewContent(styleSrc: Uri) {
 	</head>
 	
 	<body>
-		<main>
-				<h1>Git Cheatsheet</h1>
-		</main>	
+		<h1>Git Cheatsheet</h1>
+
+		<h2>Repository setup</h2>
+
+		<p>Create an empty repository in the project folder</p>
+		<pre>git init</pre>
+
+		<p>Clone a repository and add it to the project folder</p>
+		<pre>git clone [repo url]</pre>
+
+		<p>Clone a repository to a specific folder</p>
+		<pre>git clone [repo url] [folder]</pre>
+
+		<h2>Global config</h2>
+
+		<p>Set the username</p>
+		<pre>git config --global user.name [user_name]</pre>
+
+		<p>Set the user email</p>
+		<pre>git config --global user.email [user_email]</pre>
+
+		<p>Set automatic command line coloring</p>
+		<pre>git config --global color.ui auto</pre>
 	</body>
 </html>
 `;

@@ -1,3 +1,15 @@
 body {
-  background-color: tomato;
+  font-family: var(--vscode-editor-font-family);
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+p + pre {
+  margin-bottom: 2rem;
 }
