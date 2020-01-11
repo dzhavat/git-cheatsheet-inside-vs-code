@@ -14,6 +14,7 @@
 		"onCommand:git.open.cheatsheet"
 	],
 	"license": "MIT",
+	"icon": "images/icon.png",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
