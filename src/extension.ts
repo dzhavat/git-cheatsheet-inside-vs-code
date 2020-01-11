@@ -4,7 +4,7 @@ import * as path from 'path';
 import { getWebviewContent } from './webviewContent';
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('git.open.cheatsheet', () => {
+	let disposable = vscode.commands.registerCommand('open.git.cheatsheet', () => {
 		// Create and show a new webview
 		const panel = vscode.window.createWebviewPanel(
 			'gitCheatsheet',

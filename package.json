@@ -11,7 +11,7 @@
 		"Programming Languages"
 	],
 	"activationEvents": [
-		"onCommand:git.open.cheatsheet"
+		"onCommand:open.git.cheatsheet"
 	],
 	"license": "MIT",
 	"icon": "images/icon.png",
@@ -19,7 +19,7 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "git.open.cheatsheet",
+				"command": "open.git.cheatsheet",
 				"title": "Open Git Cheatsheet"
 			}
 		]
