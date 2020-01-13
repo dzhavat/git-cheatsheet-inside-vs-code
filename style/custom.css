@@ -1,5 +1,6 @@
 body {
   font-family: var(--vscode-editor-font-family);
+  margin-left: 3rem;
 }
 
 nav {
