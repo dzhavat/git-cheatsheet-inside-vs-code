@@ -20,6 +20,7 @@ export function getWebviewContent(styleSrc: Uri) {
 		<p>Jump to:</p>
 		<nav>
 			<ul>
+				<li><a href="#local-changes">Local Changes</a></li>
 				<li><a href="#branches">Branches</a></li>
 				<li><a href="#commit-history">Commit History</a></li>
 				<li><a href="#stash">Stash</a></li>
@@ -28,11 +29,25 @@ export function getWebviewContent(styleSrc: Uri) {
 			</ul>
 		</nav>
 
-		<h2>Most used</h2>
+		<h2 id="local-changes">Local Changes</h2>
 
+		<p>Display the status of modified files</p>
+		<pre>git status</pre>
 
+		<p>Add a file as it looks now to staging</p>
+		<pre>git add [file]</pre>
 
+		<p>Commit your staged file as a new commit</p>
+		<pre>git commit -m "descriptive_message"</pre>
 
+		<p>Add all files to staging and commit them</p>
+		<pre>git commit -am "descriptive_message"</pre>
+
+		<p>Unstage a file while retaining the changes</p>
+		<pre>git reset [file]</pre>
+
+		<p>Diff of what is changed but not staged</p>
+		<pre>git diff</pre>
 
 		<h2 id="branches">Branches</h2>
 
@@ -61,14 +76,17 @@ export function getWebviewContent(styleSrc: Uri) {
 		
 		<p>Show all commits in the current branch’s history</p>
 		<pre>git log</pre>
+
+		<p>Show all commits in the current branch’s history by printing each commit on a single line</p>
+		<pre>git log --oneline</pre>
 		
 		<h2 id="stash">Stash</h2>
 
-		<p>Save modified and staged changes</p>
+		<p>Stash modified and staged changes</p>
 		<pre>git stash</pre>
 
-		<p>Save modified and staged changes with a custom message</p>
-		<pre>git stash -m "[message]"</pre>
+		<p>Stash modified and staged changes with a custom message</p>
+		<pre>git stash -m "message"</pre>
 
 		<p>List all stashed changesets</p>
 		<pre>git stash list</pre>
