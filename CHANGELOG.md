@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "git-cheatsheet" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## 1.0.0 (15-01-2020)
 
 - Initial release
+
+#### Features
+
+To open the cheatsheet:
+
+* Press `Ctrl+Shift+P` (Win, Linux) / `Cmd+Shift+P` (Mac) and search for the `Open Git Cheatsheet` command.
