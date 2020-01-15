@@ -12,7 +12,7 @@ The colors on the cheatsheet page automatically adapt to the selected theme. The
 
 #### Using the `Open Git Cheatsheet` command
 
-
+![Demo](./images/demo.gif)
 
 ## Creadit
 
