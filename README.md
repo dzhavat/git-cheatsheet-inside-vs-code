@@ -1,4 +1,4 @@
-# Git Cheatsheet
+# Git Cheatsheet ([link](https://marketplace.visualstudio.com/items?itemName=dzhavat.git-cheatsheet))
 
 VS Code extension that lets you open a Git cheatsheet directly in the editor.
 
