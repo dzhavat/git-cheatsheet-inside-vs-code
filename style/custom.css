@@ -11,6 +11,10 @@ h2 {
   margin-bottom: 2rem;
 }
 
+p {
+  line-height: 1.5;
+}
+
 p + pre {
   margin-bottom: 2rem;
 }

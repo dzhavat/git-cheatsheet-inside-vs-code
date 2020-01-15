@@ -24,6 +24,10 @@
 			}
 		]
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dzhavat/git-cheatsheet-inside-vs-code"
+	},
 	"publisher": "dzhavat",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
