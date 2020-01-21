@@ -1,5 +1,15 @@
 # Change Log
 
+## 1.0.1 (21-01-2020)
+
+#### Feature
+
+* Highlight commands to be more distinguishable
+
+### Fix
+
+* Fix `git stash` command with message
+
 ## 1.0.0 (15-01-2020)
 
 - Initial release

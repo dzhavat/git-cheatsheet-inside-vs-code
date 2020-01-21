@@ -15,14 +15,16 @@ p {
   line-height: 1.5;
 }
 
-p + pre {
-  margin-bottom: 2rem;
+pre {
+  background-color: tomato;
+  background-color: var(--vscode-menu-selectionBackground);
+  border-radius: 3px;
+  color: var(--vscode-menu-selectionForeground);
+  font-size: 1rem;
+  margin-bottom: 1.75rem;
+  padding: 0.5rem 0.75rem;
 }
 
 pre + h2 {
   margin-top: 3rem;
-}
-
-pre {
-  font-size: 1rem;
 }
