@@ -2,7 +2,7 @@
 	"name": "git-cheatsheet",
 	"displayName": "Git Cheatsheet",
 	"description": "Open a Git Cheatsheet directly in VS Code.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.31.0"
 	},
