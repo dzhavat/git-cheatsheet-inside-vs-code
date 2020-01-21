@@ -20,15 +20,15 @@ export function getWebviewContent(styleSrc: Uri) {
 		<p>Jump to:</p>
 		<nav>
 			<ul>
-				<li><a href="#local-changes">Local Changes</a></li>
-				<li><a href="#branches">Branches</a></li>
-				<li><a href="#remote-repo">Working with a Remote Repository</a></li>
-				<li><a href="#see-commit-history">See Commit History</a></li>
-				<li><a href="#rebase">Rebase</a></li>
-				<li><a href="#undo">Undo</a></li>
-				<li><a href="#stash">Stash</a></li>
-				<li><a href="#repo-setup">Repository Setup</a></li>
-				<li><a href="#global-config">Global Config</a></li>
+				<li><a href="#local-changes" title="Local Changes">Local Changes</a></li>
+				<li><a href="#branches" title="Branches">Branches</a></li>
+				<li><a href="#remote-repo" title="Working with a Remote Repository">Working with a Remote Repository</a></li>
+				<li><a href="#commit-history" title="Commit History">Commit History</a></li>
+				<li><a href="#rebase" title="Rebase">Rebase</a></li>
+				<li><a href="#undo" title="Undo">Undo</a></li>
+				<li><a href="#stash" title="Stash">Stash</a></li>
+				<li><a href="#repo-setup" title="Repository Setup">Repository Setup</a></li>
+				<li><a href="#global-config" title="Global Config">Global Config</a></li>
 			</ul>
 		</nav>
 
@@ -104,7 +104,7 @@ export function getWebviewContent(styleSrc: Uri) {
 		<p>Display a list of remote repositories and their URLs</p>
 		<pre>git remote -v</pre>
 
-		<h2 id="see-commit-history">See Commit History</h2>
+		<h2 id="commit-history">Commit History</h2>
 		
 		<p>Show all commits in the current branch’s history</p>
 		<pre>git log</pre>
