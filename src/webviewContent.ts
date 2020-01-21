@@ -140,7 +140,7 @@ export function getWebviewContent(styleSrc: Uri) {
 		<pre>git stash</pre>
 
 		<p>Stash modified and staged changes with a custom message</p>
-		<pre>git stash -m "message"</pre>
+		<pre>git stash save -m "message"</pre>
 
 		<p>List all stashed changesets</p>
 		<pre>git stash list</pre>
