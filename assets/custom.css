@@ -15,16 +15,30 @@ p {
   line-height: 1.5;
 }
 
+.command-wrapper {
+  position: relative;
+}
+
+.command-wrapper + h2 {
+  margin-top: 3rem;
+}
+
+.btn-copy {
+  background-color: transparent;
+  border: 0;
+  color: var(--vscode-menu-selectionForeground);
+  cursor: pointer;
+  padding: 4px 8px;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+
 pre {
-  background-color: tomato;
   background-color: var(--vscode-menu-selectionBackground);
   border-radius: 3px;
   color: var(--vscode-menu-selectionForeground);
   font-size: 1rem;
   margin-bottom: 1.75rem;
   padding: 0.5rem 0.75rem;
-}
-
-pre + h2 {
-  margin-top: 3rem;
 }
