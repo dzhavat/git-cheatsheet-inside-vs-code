@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.0 (29-01-2020)
+
+#### Feature
+
+* Add copy button to each command
+
 ## 1.0.1 (21-01-2020)
 
 #### Feature
