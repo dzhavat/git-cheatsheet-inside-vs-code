@@ -16,6 +16,6 @@ The colors on the cheatsheet page automatically adapt to the selected theme. The
 
 ![Demo](./assets/images/demo.gif)
 
-## Creadit
+## Credit
 
 Git Logo by [Jason Long](https://twitter.com/jasonlong) is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
