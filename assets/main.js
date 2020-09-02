@@ -7,6 +7,6 @@
       return;
     }
 
-    vscode.postMessage(event.target.nextElementSibling.textContent)
+    vscode.postMessage(event.target.nextElementSibling.textContent);
   });
 }());
