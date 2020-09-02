@@ -191,28 +191,28 @@ export function getWebviewContent(webview: Webview, styleSrc: Uri, scriptSrc: Ur
 		</div>
 
 		<p>Show number of commits per author on all branches, excluding merge commits.</p>
-    		<div class="command-wrapper">
-      			<button type="button" class="btn btn-copy">Copy</button>
-      			<pre>git shortlog -s -n --all --no-merges</pre>
-    		</div>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git shortlog -s -n --all --no-merges</pre>
+		</div>
 
-    		<p>Show number of commits per author on a branch, excluding merge commits.</p>
-    		<div class="command-wrapper">
-      			<button type="button" class="btn btn-copy">Copy</button>
-      			<pre>git shortlog -s -n [branch] --no-merges</pre>
-    		</div>
+		<p>Show number of commits per author on a branch, excluding merge commits.</p>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git shortlog -s -n [branch] --no-merges</pre>
+		</div>
 
-    		<p>Show number of commits per author on all branches, including merge commits.</p>
-    		<div class="command-wrapper">
-      			<button type="button" class="btn btn-copy">Copy</button>
-      			<pre>git shortlog -s -n --all</pre>
-    		</div>
+		<p>Show number of commits per author on all branches, including merge commits.</p>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git shortlog -s -n --all</pre>
+		</div>
 
-    		<p>Show number of commits per author on a branch, including merge commits.</p>
-    		<div class="command-wrapper">
-      			<button type="button" class="btn btn-copy">Copy</button>
-      			<pre>git shortlog -s -n [branch]</pre>
-    		</div>
+		<p>Show number of commits per author on a branch, including merge commits.</p>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git shortlog -s -n [branch]</pre>
+		</div>
 		
 		<h2 id="rebase">Rebase</h2>
 
