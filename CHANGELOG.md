@@ -10,6 +10,7 @@
 
 - Update dependencies
 - Set the minimum supported VS Code version to 1.43.0
+- Decreased the size of the extension by removing the demo gif from the final package
 
 ## 1.1.1 (2020-03-20)
 
