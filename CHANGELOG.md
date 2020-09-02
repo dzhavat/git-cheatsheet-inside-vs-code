@@ -1,21 +1,32 @@
 # Changelog
 
-## 1.1.1 (20-03-2020)
+## 1.2.0 (2020-09-02)
 
-#### Changed
+### Added
+
+- Four new commands under “Commit History”
+
+### Changed
+
+- Update dependencies
+- Set the minimum supported VS Code version to 1.43.0
+
+## 1.1.1 (2020-03-20)
+
+### Changed
 
 - Update dependencies
 - Set the minimum supported VS Code version to 1.33.0
 
-## 1.1.0 (29-01-2020)
+## 1.1.0 (2020-01-29)
 
-#### Added
+### Added
 
 - Add copy button to each command
 
-## 1.0.1 (21-01-2020)
+## 1.0.1 (2020-01-21)
 
-#### Added
+### Added
 
 - Highlight commands to be more distinguishable
 
@@ -23,11 +34,11 @@
 
 - Fix `git stash` command with message
 
-## 1.0.0 (15-01-2020)
+## 1.0.0 (2020-01-15)
 
 - Initial release
 
-#### Added
+### Added
 
 To open the cheatsheet:
 
