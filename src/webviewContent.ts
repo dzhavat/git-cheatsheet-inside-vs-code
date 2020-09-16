@@ -43,13 +43,13 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Add a file to staging as it looks right now</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git add [file]</pre>
+			<pre>git add [file_name]</pre>
 		</div>
 
 		<p>Add a folder to staging as it looks right now</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git add [folder]</pre>
+			<pre>git add [folder_name]</pre>
 		</div>
 
 		<p>Commit staged files in a new commit</p>
@@ -67,7 +67,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Unstage a file while retaining the changes</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git reset [file]</pre>
+			<pre>git reset [file_name]</pre>
 		</div>
 
 		<p>Diff of what is changed but not staged</p>
@@ -117,7 +117,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Rename a branch</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git checkout -m [new_branch_name]</pre>
+			<pre>git checkout -m [new_branch]</pre>
 		</div>
 
 		<p>Delete a branch, locally</p>
@@ -199,7 +199,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Show number of commits per author on a branch, excluding merge commits.</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git shortlog -s -n [branch] --no-merges</pre>
+			<pre>git shortlog -s -n [branch_name] --no-merges</pre>
 		</div>
 
 		<p>Show number of commits per author on all branches, including merge commits.</p>
@@ -211,7 +211,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Show number of commits per author on a branch, including merge commits.</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git shortlog -s -n [branch]</pre>
+			<pre>git shortlog -s -n [branch_name]</pre>
 		</div>
 		
 		<h2 id="rebase">Rebase</h2>
@@ -219,7 +219,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Reapply commits from the current branch on top of another base</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git rebase [branch]</pre>
+			<pre>git rebase [branch_name]</pre>
 		</div>
 
 		<p>Abort a rebase</p>
@@ -297,7 +297,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Create an empty repository in a specific folder</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git init [folder]</pre>
+			<pre>git init [folder_name]</pre>
 		</div>
 		
 		<p>Clone a repository and add it to the current folder</p>
@@ -309,7 +309,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Clone a repository to a specific folder</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git clone [repo_url] [folder]</pre>
+			<pre>git clone [repo_url] [folder_name]</pre>
 		</div>
 
 		<h2 id="global-config">Global Config</h2>
