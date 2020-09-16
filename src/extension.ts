@@ -1,28 +1,25 @@
 import * as vscode from 'vscode';
-import * as path from 'path';
+import { join } from 'path';
 
 import { getWebviewContent } from './webviewContent';
 
 export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('open.git.cheatsheet', () => {
+		const assetsRoot = vscode.Uri.file(join(context.extensionPath, 'assets'));
+
 		const panel = vscode.window.createWebviewPanel(
 			'gitCheatsheet',
 			'Git Cheatsheet',
 			vscode.ViewColumn.Beside, {
-				localResourceRoots: [vscode.Uri.file(path.join(context.extensionPath, 'assets'))],
+				localResourceRoots: [assetsRoot],
 				enableScripts: true
 			}
 		);
 
-		const styleSrc = vscode.Uri.file(
-			path.join(context.extensionPath, 'assets', 'custom.css')
-		).with({ scheme: 'vscode-resource' });
-
-		const scriptSrc = vscode.Uri.file(
-			path.join(context.extensionPath, 'assets', 'main.js')
-		).with({ scheme: 'vscode-resource' });
+		const assetsPath = panel.webview.asWebviewUri(assetsRoot);
+		const cspSource = panel.webview.cspSource;
 		
-		panel.webview.html = getWebviewContent(panel.webview, styleSrc, scriptSrc);
+		panel.webview.html = getWebviewContent(cspSource, assetsPath);
 
 		panel.webview.onDidReceiveMessage(
 			(command: string) => {

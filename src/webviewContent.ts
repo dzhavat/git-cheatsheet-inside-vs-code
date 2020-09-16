@@ -1,17 +1,17 @@
-import { Webview, Uri } from "vscode";
+import { Uri } from "vscode";
 
-export function getWebviewContent(webview: Webview, styleSrc: Uri, scriptSrc: Uri) {
-	return `<!doctype html>
+export function getWebviewContent(cspSource: string, assetsPath: Uri) {
+	return /*html*/`<!doctype html>
 	<html lang="en">
 	
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src ${webview.cspSource}; script-src ${webview.cspSource}">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src ${cspSource}; script-src ${cspSource}">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<title>Git Cheatsheet</title>
 
-		<link rel="stylesheet" href="${styleSrc}">
+		<link rel="stylesheet" href="${assetsPath}/custom.css">
 	</head>
 	
 	<body>
@@ -332,7 +332,7 @@ export function getWebviewContent(webview: Webview, styleSrc: Uri, scriptSrc: Ur
 			<pre>git config --global color.ui auto</pre>
 		</div>
 
-		<script src="${scriptSrc}"></script>
+		<script src="${assetsPath}/main.js"></script>
 	</body>
 </html>
 `;
