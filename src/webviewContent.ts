@@ -265,7 +265,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<p>Stash modified and staged changes with a custom message</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
-			<pre>git stash save -m "message"</pre>
+			<pre>git stash push -m "message"</pre>
 		</div>
 
 		<p>List all stashed changesets</p>
