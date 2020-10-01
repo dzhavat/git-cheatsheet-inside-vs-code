@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.0](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.3.0...1.4.0) - 2020-09-16
+
+### Added
+
+- New section related to Tags
+
+### Changed
+
+- Update deprecated `git stash save` to `git stash push` command 
+
 ## [1.3.0](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.2.0...1.3.0) - 2020-09-16
 
 ### Added
