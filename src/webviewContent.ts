@@ -27,6 +27,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 				<li><a href="#rebase" title="Rebase">Rebase</a></li>
 				<li><a href="#undo" title="Undo">Undo</a></li>
 				<li><a href="#stash" title="Stash">Stash</a></li>
+				<li><a href="#tags" title="Tags">Tags</a></li>
 				<li><a href="#repo-setup" title="Repository Setup">Repository Setup</a></li>
 				<li><a href="#global-config" title="Global Config">Global Config</a></li>
 			</ul>
@@ -284,6 +285,26 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
 			<pre>git stash drop</pre>
+		</div>
+
+		<h2 id="tags">Tags</h2>
+
+		<p>Create a new tag</p>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git tag "tagname"</pre>
+		</div>
+
+		<p>List all tags</p>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git tag</pre>
+		</div>
+
+		<p>Delete a tag</p>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git tag -d "tagname"</pre>
 		</div>
 
 		<h2 id="repo-setup">Repository Setup</h2>
