@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.1](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.4.0...1.4.1) - 2020-10-03
+
+### Added
+
+- An example for how to stash a single file
+
 ## [1.4.0](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.3.0...1.4.0) - 2020-09-16
 
 ### Added
