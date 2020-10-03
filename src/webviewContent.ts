@@ -269,6 +269,12 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 			<pre>git stash push -m "message"</pre>
 		</div>
 
+		<p>Stash a selected file by specifying a path</p>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git stash push src/custom.css</pre>
+		</div>
+
 		<p>List all stashed changesets</p>
 		<div class="command-wrapper">
 			<button type="button" class="btn btn-copy">Copy</button>
