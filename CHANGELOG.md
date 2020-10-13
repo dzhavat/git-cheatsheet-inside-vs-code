@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Migrate TSLint to ESLint
+
 ## [1.4.1](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.4.0...1.4.1) - 2020-10-03
 
 ### Added
