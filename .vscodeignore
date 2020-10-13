@@ -3,9 +3,9 @@
 out/test/**
 src/**
 .gitignore
-vsc-extension-quickstart.md
 **/tsconfig.json
 **/tslint.json
 **/*.map
 **/*.ts
 assets/images/demo.gif
+assets/images/buy-me-a-cup-of-tea.png
