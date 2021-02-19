@@ -4,7 +4,7 @@
 	"description": "Open a Git Cheatsheet directly in VS Code.",
 	"version": "1.4.1",
 	"engines": {
-		"vscode": "^1.44.0"
+		"vscode": "^1.47.0"
 	},
 	"categories": [
 		"Other",
