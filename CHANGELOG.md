@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.4.2...1.4.3) - 2021-06-17
+
+### Changed
+
+- Set the minimum supported VS Code version to 1.52.0
+- Update dependencies
+
 ## [1.4.2](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.4.1...1.4.2) - 2021-02-20
 
 ### Fixed
@@ -12,7 +19,6 @@
 - Set the minimum supported VS Code version to 1.47.0
 - Update dependencies
 - Rename default git branch from `master` to `main`
-- 
 
 ## [1.4.1](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.4.0...1.4.1) - 2020-10-03
 
