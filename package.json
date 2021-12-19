@@ -1,53 +1,53 @@
 {
-	"name": "git-cheatsheet",
-	"displayName": "Git Cheatsheet",
-	"description": "Open a Git Cheatsheet directly in VS Code.",
-	"version": "1.4.3",
-	"engines": {
-		"vscode": "^1.52.0"
-	},
-	"categories": [
-		"Other",
-		"Programming Languages"
-	],
-	"activationEvents": [
-		"onCommand:open.git.cheatsheet"
-	],
-	"license": "MIT",
-	"icon": "assets/images/icon.png",
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "open.git.cheatsheet",
-				"title": "Open Git Cheatsheet"
-			}
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/dzhavat/git-cheatsheet-inside-vs-code"
-	},
-	"publisher": "dzhavat",
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile",
-		"test": "node ./out/test/runTest.js",
-		"lint": "eslint src --ext ts"
-	},
-	"devDependencies": {
-		"@types/glob": "7.1.3",
-		"@types/mocha": "^8.2.2",
-		"@types/node": "^12.11.7",
-		"@types/vscode": "1.52.0",
-		"@typescript-eslint/eslint-plugin": "^4.27.0",
-		"@typescript-eslint/parser": "^4.27.0",
-		"eslint": "^7.28.0",
-		"glob": "^7.1.7",
-		"mocha": "^9.0.0",
-		"typescript": "^4.3.4",
-		"vscode-test": "^1.5.2"
-	}
+  "name": "git-cheatsheet",
+  "displayName": "Git Cheatsheet",
+  "description": "Open a Git Cheatsheet directly in VS Code.",
+  "version": "1.4.3",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onCommand:open.git.cheatsheet"
+  ],
+  "license": "MIT",
+  "icon": "assets/images/icon.png",
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "open.git.cheatsheet",
+        "title": "Open Git Cheatsheet"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dzhavat/git-cheatsheet-inside-vs-code"
+  },
+  "publisher": "dzhavat",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "14.14.31",
+    "@types/vscode": "1.52.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.5.0",
+    "glob": "^7.2.0",
+    "mocha": "^9.1.3",
+    "typescript": "^4.5.4",
+    "vscode-test": "^1.6.1"
+  }
 }
