@@ -13,6 +13,9 @@
   "activationEvents": [
     "onCommand:open.git.cheatsheet"
   ],
+  "vsce": {
+    "githubBranch": "main"
+  },
   "license": "MIT",
   "icon": "assets/images/icon.png",
   "main": "./out/extension.js",
