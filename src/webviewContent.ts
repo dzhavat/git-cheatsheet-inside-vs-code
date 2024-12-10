@@ -177,6 +177,18 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 			<pre>git remote -v</pre>
 		</div>
 
+  		<p>Fetch all branches, tags, and references from the remote</p>
+		<div class="command-wrapper">
+		    <button type="button" class="btn btn-copy">Copy</button>
+		    <pre>git fetch --all</pre>
+		</div>
+
+  		<p>Create and switch to a local branch based on a remote branch</p>
+		<div class="command-wrapper">
+		    <button type="button" class="btn btn-copy">Copy</button>
+		    <pre>git switch -c [local_branch_name] [remote_name/remote_branch_name]</pre>
+		</div>
+
 		<h2 id="commit-history">Commit History</h2>
 		
 		<p>Show all commits in the current branch’s history</p>
