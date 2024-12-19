@@ -10,9 +10,6 @@
     "Other",
     "Programming Languages"
   ],
-  "activationEvents": [
-    "onCommand:open.git.cheatsheet"
-  ],
   "vsce": {
     "githubBranch": "main"
   },
