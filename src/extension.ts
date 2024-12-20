@@ -4,7 +4,7 @@ import { join } from "path";
 import { getWebviewContent } from "./webviewContent";
 
 export function activate(context: vscode.ExtensionContext) {
-  let disposable = vscode.commands.registerCommand(
+  const disposable = vscode.commands.registerCommand(
     "open.git.cheatsheet",
     () => {
       const assetsRoot = vscode.Uri.file(join(context.extensionPath, "assets"));
