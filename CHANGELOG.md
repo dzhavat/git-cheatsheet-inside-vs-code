@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.5.0](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.4.4...1.5.0) - 2024-12-20
+
+### Added
+
+- Two new commands
+
+### Changed
+
+- Set the minimum supported VS Code version to 1.93.0
+- Update dependencies
+
 ## [1.4.4](https://github.com/dzhavat/git-cheatsheet-inside-vs-code/compare/1.4.3...1.4.4) - 2021-12-19
 
 ### Changed
