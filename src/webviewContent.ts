@@ -132,6 +132,12 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 			<button type="button" class="btn btn-copy">Copy</button>
 			<pre>git merge [branch_name]</pre>
 		</div>
+
+  		<p>Checkout specific file from other branch for later commit in active branch</p>
+		<div class="command-wrapper">
+			<button type="button" class="btn btn-copy">Copy</button>
+			<pre>git checkout [branch_name] -- [path_to_file]</pre>
+		</div>
 		
 		<h2 id="remote-repo">Working with a Remote Repository</h2>
 
